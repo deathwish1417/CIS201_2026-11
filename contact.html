@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="styleaa.css">
+</head>
+<body>
+  <div class="header">
+    <img src="yu_logo.png" alt="Al Yamamah University logo">
+  </div>
+
+  <div class="nav_menu">
+    <a href="indexaa.html">Home</a>
+    <a class="active" href="contact.html" aria-current="page">Contact</a>
+  </div>
+
+  <main>
+    <h1>Contact Me</h1>
+    <p>Use this form to ask a question or share feedback.</p>
+
+    <form action="contact.html" method="post">
+      <p>
+        <label>Full name</label><br>
+        <input type="text" id="full-name" name="full_name" required>
+      </p>
+
+      <p>
+        <label>Email address</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
+
+      <p>
+        <label>Password</label><br>
+        <input type="password" id="demo-password" name="demo_password">
+      </p>
+
+      <p>
+        <label>Year of study</label><br>
+        <input type="number" id="year-of-study" name="year_of_study"
+               min="1" max="6">
+      </p>
+
+      <p>
+        <label>Meeting date</label><br>
+        <input type="date" id="meeting-date" name="meeting_date">
+      </p>
+
+      <p>
+        <label>Topic</label><br>
+        <select id="topic" name="topic" required>
+          <option value="">Choose a topic</option>
+          <option value="question">General question</option>
+          <option value="feedback">Website feedback</option>
+          <option value="meeting">Meeting request</option>
+        </select>
+      </p>
+
+      <fieldset>
+        <legend>Contact method</legend>
+
+        <input type="radio" id="reply-email" name="contact_method"
+               value="email" checked>Email <br>
+        
+        <input type="radio" id="reply-in-person" name="contact_method"
+               value="in_person"> In person <br>
+      </fieldset>
+
+      <p>
+        <input type="checkbox" id="copy" name="send_copy" value="yes">
+        <label>Send me a copy of my message</label>
+      </p>
+
+      <p>
+        <label>Message</label><br>
+        <textarea id="message" name="message" rows="5" cols="35"
+                  required></textarea>
+      </p>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <div class="footer">
+    <p>&copy; 2026 Sara | Student ID: 2026124234 | Major: Software Engineering</p>
+  </div>
+</body>
+</html>

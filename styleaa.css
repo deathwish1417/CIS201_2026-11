@@ -1,0 +1,121 @@
+.header {
+    background-color:white;
+    padding: 15px;
+    text-align:center;
+    }
+    /* CSS property for navigation menu */
+    .nav_menu {
+    overflow: hidden;
+    background-color:rgb(252, 139, 0) ;
+    }
+    .nav_menu a {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    .nav_menu a:hover {
+    background-color: wheat;
+    color: orange;
+    }
+    .footer{
+    background-color:white;
+    padding: 15px;
+    text-align:center;
+    }
+    table {
+        border-collapse: collapse;   /* single lines, not double */
+        width: 100%;
+    }
+    
+    th, td {
+        border: 1px solid #999;
+        padding: 10px;
+    }
+    
+    th {
+        background-color: rgb(252, 139, 0);
+        color: white;
+    }
+    /* Contact form */
+form {
+    padding: 20px;
+    border: 1px solid #b9c8c3;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  label,
+  legend {
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 10px;
+    border: 1px solid wheat;;
+    border-radius: 4px;
+    font: inherit;
+  }
+  
+  input {
+    accent-color: rgb(252, 139, 0);
+  }
+  
+  fieldset {
+    margin: 0 0 16px;
+    padding: 12px;
+    border: 1px solid #b9c8c3;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 4px;
+    background-color:rgb(252, 139, 0);
+    color: white;
+    font: inherit;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:wheat;;
+  }
+  body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  .dark-mode .header,
+  .dark-mode form,
+  .dark-mode table {
+    background-color: #222222;
+  }
+  
+  .dark-mode h1,
+  .dark-mode h2,
+  .dark-mode main a {
+    color: wheat;
+  }
+  
+  .dark-mode input,
+  .dark-mode select,
+  .dark-mode textarea {
+    background-color: #333333;
+    color: #f0f0f0;
+  }
+  
+   
+   
